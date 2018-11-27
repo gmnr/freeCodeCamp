@@ -18,9 +18,7 @@ p, h1 {
 
 
 #img-div {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+  overflow: hidden;
 }
 
 
@@ -29,6 +27,7 @@ p, h1 {
    height: auto;
    left: 0px;
    right: 0px;
+   margin: -8.2% 0;
 }
 
 
