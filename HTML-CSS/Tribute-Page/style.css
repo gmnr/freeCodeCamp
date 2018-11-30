@@ -8,8 +8,8 @@
 
 p, h1 {
    text-align: center;
-   vertical-align: middle;
-}
+/*   vertical-align: middle;
+*/}
 
 
 #main {
@@ -23,21 +23,28 @@ p, h1 {
 
 
 #image {
-   width: 100%;
+   max-width: 100%;
+   display: block;
    height: auto;
    left: 0px;
    right: 0px;
    margin: -8.2% 0;
+   align-items: center;
 }
 
 
 #img-caption {
    font-size: 14px;
    font-style: italic;
+   text-align: left;
 }
 
 
 #footer {
    background-color: #9ca1a8;
    padding: 10px
+}
+
+#list {
+  padding-left: 50px;
 }
