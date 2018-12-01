@@ -8,8 +8,8 @@
 
 p, h1 {
    text-align: center;
-/*   vertical-align: middle;
-*/}
+   vertical-align: middle;
+}
 
 
 #main {
@@ -36,13 +36,23 @@ p, h1 {
 #img-caption {
    font-size: 14px;
    font-style: italic;
+   font-weight: 700;
    text-align: left;
+   padding-left: 25px;
+   color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+}
+
+#tribute-info {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 
 #footer {
    background-color: #9ca1a8;
-   padding: 10px
+   padding: 6px
 }
 
 #list {
